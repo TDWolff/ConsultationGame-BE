@@ -1,7 +1,3 @@
-# mansion-backend
- 
-API Template File:
-```java
 package com.nighthawk.spring_portfolio.hacks.mansion;
 
 import org.springframework.http.HttpStatus;
@@ -19,5 +15,3 @@ public class MansionApiController {
         return ResponseEntity.status(HttpStatus.OK).body("Hello, World!");
     }
 }
-```
-This is a simple hello world script where you run a get to the backend running on localhost:8085/api/mansion/hello and it will return "Hello, World!".
