@@ -1,4 +1,4 @@
-package com.nighthawk.spring_portfolio.hacks.mansion;
+package com.nighthawk.spring_portfolio.hacks.consultation;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -8,8 +8,8 @@ import org.springframework.web.bind.annotation.RestController;
 
 
 @RestController
-@RequestMapping("/api/mansion")
-public class MansionApiController {
+@RequestMapping("/api/consultation")
+public class ConsultationApiController {
     @GetMapping("/hello")
     public ResponseEntity<String> getHello() {
         return ResponseEntity.status(HttpStatus.OK).body("Hello, World!");
